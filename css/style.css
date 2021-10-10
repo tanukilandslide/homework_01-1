@@ -1,0 +1,199 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+.title_background{
+    background-color:#3A414E;
+    color:#D9E8F0;
+    margin:-0px 0px 0px 0px;
+    padding:16px 16px 16px 16px;
+}
+
+/*
+.nav_buttons{
+    background-color: #3A414E;
+    color: #D9E8F0;
+    border-radius: 20px;
+    
+    padding: 8px 16px 8px 16px;
+}
+*/
+
+body{
+    background-color:#D9E8F0;
+}
+
+h1, h2, h3{
+    font-family: didot, serif;
+    color: #3A414E;
+    font-weight: bold;
+}
+
+h1{
+    font-size:36px;
+}
+
+h2, h3{
+    
+    text-align: center;
+    margin: 24px 0px 16px 0px;
+    
+}
+
+h2{
+    
+    font-size:28px;
+    
+}
+
+.history-header-line-two, .xia-dynasty-line-two{
+    display: block;
+}
+
+p, ol, ul{
+    font-family: gill sans, sans-serif;
+    font-size: 22px;
+    padding: 0px 16px 0px 16px;
+    line-height: 28px;
+    color: #3A414E;
+    
+}
+
+
+
+h3{
+
+    font-size: 24px;
+    
+}
+
+
+section{
+    margin: 40px 0px 40px 0px;
+}
+
+ol, ul{
+    padding: 0px 16px 0px 48px;
+}
+
+li{
+    margin: 16px 0;
+}
+
+a{
+    font-family:didot, serif;
+    text-align: center;
+    font-size: 28px;
+    color: #D9E8F0;
+    text-decoration: none;
+    
+}
+
+button{
+    
+    background-color: #3A414E;
+    border-radius: 30px;
+    border: 0px;
+    padding: 8px 16px 8px 16px;
+    display: block;
+    margin: 0 auto;
+    cursor: crosshair;
+    
+}
+
+table{
+    font-family: gill sans, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin: 40px 0px 0px 16px;
+    line-height: 28px;
+    
+}
+
+th{
+    padding: 0px 32px 0px 0px;
+    color: #3A414E;
+}
+
+.th_lower_case{
+    font-weight: normal;
+}
+
+.spacer{
+    margin: 16px 0px 16px 0px;
+}
+
+img{
+    display:block;
+    max-width:100%;
+    max-height:100%;
+    
+}
+
+.desktop-map{
+    display:none;
+}
+
+/*This is for desktop/thicc screens*/
+
+@media (min-width: 640px){
+    
+    main{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 2%;
+        transition: margin ease 2s;
+        
+    }
+    
+    
+    h2{
+        font-size:48px;
+        text-align: left;
+    }
+    
+    h3{
+        font-size: 36px;
+    }
+    
+    img{
+        display:inline;
+        float:right;
+        margin: 0 0 0 16px;
+    }
+    
+    
+    p{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .history-header-line-two, .xia-dynasty-line-two{
+    display: inline;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    
+    a{
+        cursor: default;
+    }
+    
+    button{
+        font-family:didot, serif;
+        margin: 0;
+        font-size: 28px;
+        border: 2px solid #3A414E;
+        background-color: #D9E8F0;
+        color: #3A414E;
+        transition: background-color linear .4s;
+    }
+    
+    button:hover{
+        transition: background-color linear .2s;
+        background-color: #3A414E;
+        color: #D9E8F0;
+    }
+}
